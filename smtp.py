@@ -34,4 +34,3 @@ smtpObj.set_debuglevel(1)
 smtpObj.sendmail( email, recipient, 'Subject: Info.\n' + current_msg )
 #disconnecting from smtp server:
 smtpObj.quit()
-
